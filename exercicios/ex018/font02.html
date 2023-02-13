@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'present';
+            src: url('fonts/Presents.otf'); fornmat(opentype)
+            font-weight: normal;
+            font-style: normal;
+
+            /*Tipos de format()
+            -opentype (0tf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-aat (Apple advanced typography)
+            -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'present';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nulla harum quis quo fugiat mollitia, saepe recusandae, deserunt eligendi optio doloribus repellendus obcaecati cumque quam ducimus nam. Ullam, repudiandae omnis!</p>
+</body>
+</html>
